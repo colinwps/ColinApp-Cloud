@@ -1,0 +1,2 @@
+com.colinapp.common.redis.configure.RedisConfig
+com.colinapp.common.redis.service.RedisService

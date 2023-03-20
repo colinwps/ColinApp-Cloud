@@ -1,0 +1,3 @@
+com.colinapp.system.api.factory.RemoteUserFallbackFactory
+com.colinapp.system.api.factory.RemoteLogFallbackFactory
+com.colinapp.system.api.factory.RemoteFileFallbackFactory

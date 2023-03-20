@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.colinapp</groupId>
+        <artifactId>colinapp</artifactId>
+        <version>3.6.2</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>colinapp-common-log</module>
+        <module>colinapp-common-core</module>
+        <module>colinapp-common-redis</module>
+        <module>colinapp-common-seata</module>
+        <module>colinapp-common-swagger</module>
+        <module>colinapp-common-security</module>
+        <module>colinapp-common-datascope</module>
+        <module>colinapp-common-datasource</module>
+    </modules>
+
+    <artifactId>colinapp-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        colinapp-common通用模块
+    </description>
+
+</project>

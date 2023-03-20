@@ -1,0 +1,3 @@
+com.colinapp.common.swagger.config.SwaggerAutoConfiguration
+com.colinapp.common.swagger.config.SwaggerWebConfiguration
+com.colinapp.common.swagger.config.SwaggerBeanPostProcessor

@@ -1,0 +1,2 @@
+com.colinapp.common.log.service.AsyncLogService
+com.colinapp.common.log.aspect.LogAspect
