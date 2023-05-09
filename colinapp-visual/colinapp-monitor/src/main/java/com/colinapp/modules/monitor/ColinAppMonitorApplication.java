@@ -1,26 +1,22 @@
-package com.colinapp.gen;
+package com.colinapp.modules.monitor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.colinapp.common.security.annotation.EnableCustomConfig;
-import com.colinapp.common.security.annotation.EnableRyFeignClients;
-import com.colinapp.common.swagger.annotation.EnableCustomSwagger2;
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 
 /**
- * 代码生成
+ * 监控中心
  * 
  * @author ruoyi
  */
-@EnableCustomConfig
-@EnableCustomSwagger2   
-@EnableRyFeignClients
+@EnableAdminServer
 @SpringBootApplication
-public class RuoYiGenApplication
+public class ColinAppMonitorApplication
 {
     public static void main(String[] args)
     {
-        SpringApplication.run(RuoYiGenApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  代码生成模块启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
+        SpringApplication.run(ColinAppMonitorApplication.class, args);
+        System.out.println("(♥◠‿◠)ﾉﾞ  监控中心启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 " .-------.       ____     __        \n" +
                 " |  _ _   \\      \\   \\   /  /    \n" +
                 " | ( ' )  |       \\  _. /  '       \n" +
